@@ -1,1 +1,30 @@
-<h1>Specific Cat</h1>
+<div class="row">
+  <div class="column small-12">
+    <h1 class="text-center">{{cat.name}}</h1>
+    <ul>
+      <li ng-repeat="img in cat.images" ng-show="$index === activeIndex">
+        <figure>
+          <img ng-src="/images/{{img}}">
+        </figure>
+      </li>
+    </ul>
+    <ul id="thumbs">
+      <li ng-repeat="img in cat.images" ng-click="show($index)" ng-class="{active:$index === activeIndex}">
+        <img ng-src="/images/{{img}}">
+      </li>
+    </ul>
+    <p>{{cat.description | replace:'a':cat.name}}</p>
+    <h3>Foods</h3>
+    <ol>
+      <li ng-repeat="food in cat.foods">
+        <h4>{{food.name}}</h4>
+      </li>
+    </ol>
+    <h3>Toys</h3>
+    <ol>
+      <li ng-repeat="toy in cat.toys">
+        <h4>{{toy.name}}</h4>
+      </li>
+    </ol>
+  </div>
+</div>
