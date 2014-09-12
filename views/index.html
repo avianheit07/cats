@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="/css/normalize.css">
 	<link rel="stylesheet" href="/css/app.css">
 </head>
-<body>
+<body ng-controller="MainCtrl">
 	<div class="panel text-center">
 		<div class="row collapse">
 			<div class="column small-2">
@@ -27,7 +27,29 @@
 			<ng-view></ng-view>
 		</div>
 	</div>
+	<div id="cover" ng-if="!checkUser()">
+		<div class="row">
+			<div class="small-12 text-center">
+				<h1>Adopt-a-Cat</h1>
+			</div>
+			<form name="user" ng-submit="register(user)">
+				<div class="row">
+					<div class="column small-8 text-center small-centered">
+						<input type="text" class="radius" ng-model="user.name" placeholder="name">
+					</div>
+				</div>
+				<div class="row">
+					<div class="column small-8 text-center small-centered">
+						<input type="email" class="radius" required ng-model="user.email" placeholder="email" >
+						<input type="submit" class="button radius expand" value="REGISTER">
+						<div class="panel callout radius">{{message}}</div>
+					</div>
+				</div>
 
+			</form>
+		</div>
+
+	</div>
 	<!-- JS	-->
 	<script src="/js/angular/angular.min.js"></script>
 	<script src="/js/angular/angular-route.min.js"></script>

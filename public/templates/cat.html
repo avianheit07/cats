@@ -27,4 +27,21 @@
       </li>
     </ol>
   </div>
+  <div class="column small-12" ng-show="user">
+    <div class="panel callout text-center">
+      Hi {{user.name}}!, wan't to bid for this cat?
+    </div>
+    <form ng-submit="bid(newBid)">
+      <input class="radius" type="number" ng-model="newBid.price" placeholder="price">
+      <textarea class="radius" ng-model="newBid.message"></textarea>
+      <input class="button expand radius" type="submit" value="BID NOW!">
+    </form>
+    <h1>On Going Bids:</h1>
+    <ol>
+      <li ng-repeat="b in bids">
+        <h1>PHP {{b.price|number}}</h1>
+        <p>{{b.message}} - <b>{{b.user}}</b></p>
+      </li>
+    </ol>
+  </div>
 </div>
