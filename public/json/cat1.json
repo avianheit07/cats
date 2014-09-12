@@ -1,0 +1,31 @@
+{
+	"id":1,
+	"name":"Grumpy Cat",
+	"description":"Sweet beast leave hair everywhere favor packaging over toy, so loves cheeseburgers flop over, for find empty spot in cupboard and sleep all day. Kick up litter burrow under covers use lap as chair, but intrigued by the shower, but throwup on your pillow hunt anything that moves burrow under covers. Kick up litter intrigued by the shower, yet nap all day. Find empty spot in cupboard and sleep all day missing until dinner time behind the couch. Sun bathe climb leg chase imaginary bugs sleep on keyboard, so rub face on everything, intently sniff hand bathe private parts with tongue then lick owner's face. Lick arm hair swat at dog, yet stand in front of the computer screen. Hopped up on catnip destroy couch attack feet. Give attitude find something else more interesting need to chase tail, so sit in box. Chase dog then run away sit in box attack feet, and stare at ceiling, yet lick arm hair. Stare at ceiling under the bed, so bathe private parts with tongue then lick owner's face missing until dinner time, so give attitude. Make muffins run in circles.",
+	"type":1,
+	"images":[
+		"a_1.jpg",
+		"a_2.jpg",
+		"a_3.jpg",
+		"a_4.jpg"
+	],
+	"foods":[
+		{
+			"name":"goldfish",
+			"qty":1
+		},
+		{
+			"name":"purina",
+			"qty":3
+		}
+	],
+	"toys":[
+		{
+			"name":"plastic wrapper"
+		},
+		{
+			"name":"cacti"
+		}
+	],
+	"tags":["grumpy","angry","wtf"]
+}

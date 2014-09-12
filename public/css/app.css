@@ -1,0 +1,61 @@
+#cats{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+#cats > li{
+	margin:10px 0px;
+	height:auto;
+	background:#CCC;
+	padding:10px;
+	border-radius: 5px;
+}
+#cats > li > h1{
+
+}
+figure{
+	padding:0px;
+	margin:0px;
+}
+a{
+	color:white;
+}
+ul{
+	padding:0px;
+	list-style:none;
+}
+li{
+	margin:0px;
+}
+ul#thumbs{
+	width:100%;
+	height:50px;
+}
+ul#thumbs > li{
+	float:left;
+	width:50px;
+	height:50px;
+	opacity:0.5;
+}
+ul#thumbs > li:hover{
+	opacity:0.8;
+}
+ul#thumbs > li.active{
+	opacity:1;
+}
+
+#cover,#bidForm{
+	z-index:9999;
+	background:rgba(130,130,130,0.9);
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+#cover h1{
+	color:white;
+	font-size:4em;
+}
