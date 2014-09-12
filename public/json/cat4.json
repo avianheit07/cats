@@ -1,0 +1,30 @@
+{
+	"id":4,
+	"name":"Fat Ass Cat",
+	"description":"Shake treat bag purr for no reason need to chase tail. Lick arm hair hide when guests come over, and rub face on everything have secret plans, but chew foot. Sun bathe. Destroy couch swat at dog intently sniff hand. Have secret plans hunt by meowing loudly at 5am next to human slave food dispenser so chase dog then run away. Stare at ceiling scamper favor packaging over toy sun bathe. Behind the couch intently sniff hand, but burrow under covers who's the baby, but under the bed, for nap all day, yet hunt anything that moves.",
+	"images":[
+		"g_1.jpg",
+		"g_2.jpg",
+		"g_3.jpg",
+		"g_4.jpg"
+	],
+	"foods":[
+		{
+			"name":"pizza",
+			"qty":3
+		},
+		{
+			"name":"burger",
+			"qty":3
+		}
+	],
+	"toys":[
+		{
+			"name":"rug"
+		},
+		{
+			"name":"box"
+		}
+	],
+	"tags":["cholesterol","fat","obesity","hairy"]
+}

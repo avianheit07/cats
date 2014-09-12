@@ -1,0 +1,31 @@
+{
+	"id":3,
+	"name":"Alodia Cat",
+	"description":"Hate dog lick arm hair and find empty spot in cupboard and sleep all day. Favor packaging over toy play time. Have secret plans kick up litter lick arm hair attack feet, but intently sniff hand loves cheeseburgers stretch. Sleep nap flop over, for hack up furballs missing until dinner time, yet sweet beast, so intrigued by the shower. Cat snacks flop over, but who's the baby, for find empty spot in cupboard and sleep all day. Leave dead animals as gifts lick arm hair hopped up on catnip. Sleep nap. Sun bathe chase imaginary bugs. Destroy couch. Throwup on your pillow use lap as chair run in circles sleep in the bathroom sink hunt anything that moves favor packaging over toy favor packaging over toy. I like big cats and i can not lie hate dog give attitude, yet why must they do that use lap as chair scamper. Chase mice. Stretch attack feet.",
+	"type":1,
+	"images":[
+		"d_1.jpg",
+		"d_2.jpg",
+		"d_3.jpg",
+		"d_4.jpg"
+	],
+	"foods":[
+		{
+			"name":"bbq",
+			"qty":1
+		},
+		{
+			"name":"purina",
+			"qty":3
+		}
+	],
+	"toys":[
+		{
+			"name":"clothes"
+		},
+		{
+			"name":"spork"
+		}
+	],
+	"tags":["cosplay","alodia","person","girl"]
+}
