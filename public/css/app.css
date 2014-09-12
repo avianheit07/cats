@@ -10,8 +10,8 @@
 	padding:10px;
 	border-radius: 5px;
 }
-#cats > li > h1{
-
+#cats > li  h3{
+	border-bottom: 1px #eee solid;
 }
 figure{
 	padding:0px;
