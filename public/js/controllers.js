@@ -12,7 +12,14 @@
     }).success(function(cats){
       $s.cats = cats;
     })
-  }]).controller("CatCtrl",function(){
-
-  })
+  }]).controller("CatCtrl",["$scope","$routeParams","$http",function($s,$rp,$x){
+    //console.log($rp);
+    $s.activeIndex = 0;
+    $s.show = function(idx){
+      $s.activeIndex = idx;
+    }
+    $x.get("/json/cat"+$rp.id+".json").success(function(data){
+        $s.cat = data;
+    })
+  }])
 }(window.angular));
