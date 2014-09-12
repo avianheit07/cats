@@ -3,17 +3,19 @@
     <h1 class="text-center">List of Cats</h1>
     <!--<h1>{{message}}</h1><h3>{{getMessage()}}</h3> -->
     <!-- <pre>{{cats | json}}</pre> -->
+    <input type="text" class="radius" ng-model="search" placeholder="search criterias">
     <ul id="cats">
-      <li ng-repeat="cat in cats">
+      <li ng-repeat="cat in cats | filter:search">
         <div class="row">
-          <div class="column small-3">
-
+          <div class="column small-4">
+            <thumb-blinker images="cat.images" seconds="1"></thumb-blinker>
           </div>
-          <div class="column small-9">
+          <div class="column small-8">
             <h3>{{cat.name}}</h3>
             <p>{{cat.description | limitTo: 140}}</p>
           </div>
         </div>
+        <a ng-href="#/cat/{{cat.id}}" class="button radius expand tiny">more details</a>
       </li>
     </ul>
   </div>
